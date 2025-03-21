@@ -19,7 +19,6 @@ class Task {
 
   @override
   String toString() {
-    // TODO: implement toString
     return 'Id: $taskId; Cat: $taskCatagory;  Desc: $taskDesctiption; DL: $deadlineDate $deadlineTime; Day: $dayOfWeek  Done? ${isDone.toString()}';
   }
 }

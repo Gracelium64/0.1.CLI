@@ -1,6 +1,10 @@
 import 'dart:io';
 import 'dart:math';
 
+String? userInputFunction() {
+  return stdin.readLineSync();
+}
+
 void clearConsole() => print("\x1B[2J");
 void clearConsole2() => print("\x1B[2J\x1B[0;0H");
 

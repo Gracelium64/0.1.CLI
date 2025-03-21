@@ -1,5 +1,5 @@
 class Task {
-  final int taskId;
+  final int? taskId;
   final String taskCatagory;
   final String taskDesctiption;
   final String? deadlineDate;
@@ -17,8 +17,12 @@ class Task {
        this.isDone,
       );
 
-  @override
-  String toString() {
-    return 'Id: $taskId; Cat: $taskCatagory;  Desc: $taskDesctiption; DL: $deadlineDate $deadlineTime; Day: $dayOfWeek  Done? ${isDone.toString()}';
-  }
+  // int? identifier() {
+  //   return taskId;
+  // }
+
+  // @override
+  // String toString() {
+  //   return 'Id: $taskId; Cat: $taskCatagory;  Desc: $taskDesctiption; DL: $deadlineDate $deadlineTime; Day: $dayOfWeek  Done? ${isDone.toString()};';
+  // }
 }

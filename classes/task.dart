@@ -17,10 +17,6 @@ class Task {
        this.isDone,
       );
 
-  // int? identifier() {
-  //   return taskId;
-  // }
-
   // @override
   // String toString() {
   //   return 'Id: $taskId; Cat: $taskCatagory;  Desc: $taskDesctiption; DL: $deadlineDate $deadlineTime; Day: $dayOfWeek  Done? ${isDone.toString()};';

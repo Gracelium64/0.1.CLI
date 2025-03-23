@@ -1,11 +1,6 @@
 
 String versionNumber() {
   return 'v0.1.1';
-
-//   @override
-//   String toString() {
-//     return '$name, $price€';
-//   }
 }
 
 // Documentation of stages in versions

@@ -3,7 +3,7 @@ import 'functions_grace64.dart';
 import 'create_task.dart';
 import '../classes/task.dart';
 
-List<Task> mainMenu() {
+void mainMenu() {
 
   String? userInput;
   String? userInputSub;

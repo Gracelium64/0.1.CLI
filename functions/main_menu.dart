@@ -363,7 +363,7 @@ void mainMenu() {
     // // // Exit
     case 'e':
       clearConsole();
-      print('Ok not bye bye than');
+      print('Ok now bye bye than');
 
     // // // null check
     default:

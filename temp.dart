@@ -5,9 +5,15 @@ import 'dart:io';
 
 void main() {
 
+
   clearConsole();
 
-  // List<Task> [];
+  
+
+
+
+/*
+  List<Task> [];
 
   List<Task> dailyTasks = [];
   List<Task> weeklyTasks = [];
@@ -31,6 +37,8 @@ void main() {
   questTasks.add(createQuestTask(taskIdCounter, stdin.readLineSync() ?? ''));
   taskIdCounter++;
   print('${questTasks})');
-
+*/
 
 }
+
+
